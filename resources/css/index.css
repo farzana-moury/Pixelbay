@@ -318,11 +318,35 @@ hr#footer {
     margin-top: 2%;
     margin-left: 2%;
     margin-bottom: 2%;
+    border-radius: 100%;
+    background-color: #00a36d24;
+    color: #00A36C;
+    height: fit-content;
+    padding: 10px 13px;
+    font-size: 13px;
 }
 
 #learn-more-div {
     margin: 1% 2%;
 }
+
+#learn-more-div h2{
+    font-family: 'Open Sans ExtraBold';
+    font-size: 17px;
+}
+
+#learn-more-div p {
+    color: #696969;
+    font-size: 14px;
+}
+
+p#green-text {
+    margin-top: 30px;
+    padding-left: 5px;
+    font-family: 'Open Sans SemiBold';
+    color: #00A36C;
+}
+
 
 /* Quick links section */
 .links-section {
