@@ -357,10 +357,21 @@ p#green-text {
 
 #socials {
     float: left;
-    width: 50%;
+    width: 62%;
     margin-left: 30px;
-    margin-right: 40px;
+    margin-right: 10px;
     margin-bottom: 30px;
+}
+
+#socials h1 {
+    font-family: 'Turret Road';
+    font-size: 35px;
+}
+
+#socials p {
+    margin-bottom: 25px;
+    color: #696969;
+    font-size: 14px;
 }
 
 #socials ul {
@@ -368,9 +379,13 @@ p#green-text {
     padding-left: 0;
 }
 
+#socials ul li span {
+    margin-right: 20px;
+}
+
 #links {
     float: left;
-    width: 45%;
+    width: 35%;
 }
 
 #links ul {
@@ -378,13 +393,23 @@ p#green-text {
     padding-left: 0;
     margin-left: 0;
     margin-top: 30px;
-    margin-right: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 0;
 }
 
 #columns {
     float: left;
     width: 33%;
+    font-size: 14px;
+}
+
+#columns span {
+    font-family: 'Open Sans SemiBold';
+}
+
+#columns ul {
+    margin-top: 12px;
+    color: #696969;
+    line-height: 32px;
 }
 
 /* footer section */
@@ -397,6 +422,10 @@ footer {
     background-color: lightgray;
     text-align: center;
     padding: 30px 0;
+    font-size: 12px;
+    padding: 25px 0;
+    color: #696969;
+    background-color: rgba(211, 211, 211, 0.179);
 }
 
 
