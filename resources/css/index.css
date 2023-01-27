@@ -16,6 +16,7 @@ button {
 
 hr {
     margin: 50px 30px;
+    border: 0.5px solid rgb(232, 231, 231);
 }
 
 hr#footer {
@@ -32,7 +33,7 @@ hr#footer {
     top: 0;
     left: 0;
     z-index: 3;
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid rgb(232, 231, 231);
 }
 
 .navbar ul {
@@ -65,7 +66,7 @@ hr#footer {
     padding-left: 3px;
 }
 
-#join-btn {
+#join-btn{
     border: 1px solid lightgray;
     border-radius: 40px;
     padding: 10px 16px;
@@ -180,6 +181,10 @@ hr#footer {
     font-size: 12px;
 }
 
+.bottom-div strong ins {
+    font-family: 'Open Sans SemiBold';
+}
+
 #read-more {
     position: absolute;
     left: 30px;
@@ -209,15 +214,48 @@ hr#footer {
 }
 
 .media-selection li {
-    font-size: 10px;
+    font-family: 'Open Sans SemiBold';
+    font-size: 14px;
     display: inline-block;
-    padding: 20px 5px;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+    color: #696969;
+    padding: 10px 16px;
+    border-radius: 30px;
 }
 
-button#editors-choice {
+.media-selection span {
+    padding-right: 5px;
+}
+
+#active-media-btn {
+    background-color: rgba(242, 240, 240, 0.559);
+    color: black;
+}
+
+#active-media-btn span {
+    color: #00A36C; 
+}
+
+.media-selection li:hover {
+    background-color: rgba(242, 240, 240, 0.559);
+    border-radius: 40px;
+    padding: 10px 16px;
+}
+
+#editors-choice-btn {
     position: relative;
     float: right;
-    margin: 30px 30px;
+    margin: 40px 30px;
+    color: black;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    padding: 10px 16px;
+}
+
+#editors-choice-btn span {
+    margin-left: 3px;
 }
 
 /* Gallery css */
@@ -225,7 +263,7 @@ button#editors-choice {
     margin-left: 30px;
     margin-right: 30px;
     text-align: center;
-    height: 900px;
+    height: 2120px;
     overflow: hidden;
 }
 
@@ -233,13 +271,13 @@ button#editors-choice {
     text-align: center; 
 
     line-height: 0;
-    -webkit-column-count: 5;
+    -webkit-column-count: 4;
     /* split it into 5 columns */
     -webkit-column-gap: 22px;
     /* give it a 5px gap between columns */
-    -moz-column-count: 5;
+    -moz-column-count: 4;
     -moz-column-gap: 22px;
-    column-count: 5;
+    column-count: 4;
     column-gap: 22px;
 
     z-index: -2;
@@ -255,14 +293,20 @@ button#editors-choice {
 
 .discover-more {
     position: relative;
-    bottom: 292px;
-    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(255,0,255,1));
+    bottom: 278px;
+    background-image: linear-gradient(to bottom, rgba(255,0,0,0) 20%, rgba(255,255,255,1) 90%);
     height: 192px;
     z-index: 1;
 }
 
-button#discover-more-btn {
-    margin: 85px 0;
+#discover-more-btn {
+    margin-top: 100px;
+    margin-bottom: 5px;
+    color: black;
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    padding: 10px 16px;
+    background-color: white;
 }
 
 /* Learn more css */
